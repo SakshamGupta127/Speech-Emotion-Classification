@@ -1,5 +1,5 @@
 # EMOTION_CLASSIFICATION_ON_SPEECH_DATA
-A robust Speech Emotion Recognition system using MFCC, Chroma, Mel-Spectrogram, Spectral Contrast, Tonnetz, and VGGish features. Includes data augmentation, hyperparameter tuning, and a 1D CNN for accurate multi-class emotion classification from audio.
+A robust Speech Emotion Recognition system using MFCC, Chroma, Mel-Spectrogram, Spectral Contrast, Tonnetz, and VGGish features. Includes data augmentation, hyperparameter tuning, and a 3D CNN for accurate multi-class emotion classification from audio.
 
 Accuracy metrics:
 Final Accuracy on Validation Data: 59.02%
@@ -58,3 +58,4 @@ Final layer with softmax activation that outputs probability for each emotion.
 Output:
 
 Emotion label with the highest probability (e.g., HAPPY, SAD, ANGRY etc.)
+
